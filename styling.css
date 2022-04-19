@@ -1,0 +1,199 @@
+/*Universal styling*/
+body {
+    line-height: 1.5;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    font-weight: semi-bold;
+    background-color: #F9D3EF
+  }
+  
+  p{
+    font-size:17px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+  h2{
+    font-size:24px;
+    font-family: Palatino Linotype;
+    text-transform: uppercase;
+  }
+  /*HomePage*/
+  h1{
+    font-size: 50px;
+    margin:0;
+    padding-top:80px;
+    font-family: Palatino Linotype;
+    text-transform: uppercase;
+  }
+  
+  .hero_image {
+    background-image: url("./Pictures/Asheville.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center top;
+  }
+  
+  .hometext{
+    font-size:18px;
+    text-align:center;
+    font-style: sans-serif;
+    padding-left:50px;
+    padding-right:50px;
+  }
+  
+  /*Header & Nav Bar Styling*/
+  
+  .shadey{
+    float:left;
+    margin-left:20px;
+    text-transform: uppercase;
+  }
+  
+  header {
+    background: #F686BD;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #9433E2 3px solid;
+    font-family: Palatino Linotype;
+  }
+  
+  header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Palatino Linotype;
+  }
+  
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  a {
+    border-bottom: 1px solid #453886;
+    color: #453886;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+  
+  /*Link Styling*/
+  
+  a:hover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+  
+  a:link, a:visited {
+    color: #9433E2;
+  }
+  
+  /*ToDo Header*/
+  .explore{
+    font-size: 40px;
+    margin: 30px, 10px, 30px, 10px;
+  }
+  
+  /*ToDo Page Left*/
+  .one{
+    float:left;
+    width: 50%;
+    max-height: 700px;
+    position: relative;
+    margin-top:15px;
+    margin-bottom: 20px;
+    font-style: helvetica;
+  }
+  /*ToDo Page Right*/
+  .two{
+    float:right;
+    width:50%;
+    max-height: 700px;
+    margin-top:-34px;
+    margin-bottom:70px;
+    font-style: helvetica;
+  }
+  
+  /*Form Styling*/
+  .contact{
+    font-size:28px;
+  }
+  
+  .contact_info{
+    max-width: 800px;
+    padding: 5px;
+    margin:2rem auto;
+    background-image: url("./Pictures/Asheville.jpg");
+  }
+  
+  input[type=text], textarea{
+    border: 3px solid #5e2130;
+    border-radius: 6px;
+    padding: 10px;
+    display: block;
+    width: 94%;
+    margin:10px;
+  }
+  
+  .pricing{
+    padding-left: 40px;
+    padding-right:40px;
+  }
+  
+  
+  /*Button Styling*/
+  #submit{
+    text-transform: uppercase;
+    background: #5e2130;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #submit:hover{
+    background: #434975;
+    transition: .3s;
+  }
+  
+  /*General Footer*/
+  footer{
+    color: #9433E2;
+    font-family: Palatino Linotype;
+    object-position: bottom;
+  }
+  .strawlogo{
+    margin-top: 10px;
+  }
+  
+  
+  /*ToDo Page Footer*/
+  .todofoot{
+    color: #9433E2;
+    font-family: Palatino Linotype;
+    object-position: bottom;
+    height: 20px;
+    margin-top:1500px;
+    margin-bottom:40px;
+  }
